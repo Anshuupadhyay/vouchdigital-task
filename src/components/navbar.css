@@ -1,0 +1,55 @@
+.line1{
+    height:3rem;
+  display: flex;
+  width: 100%;
+  justify-content:space-between;
+  align-items: center;
+}
+
+    .login{
+       
+       margin-top: -1%;
+        margin-right: 2rem;
+     }
+
+     .dot{
+        color: rgb(251,123,0);
+        font-weight: bold;
+     }
+     .navtxt{
+        color:#002A43;
+        font-weight: bold;
+        
+     }
+     .webname{
+        margin-left: 3%;
+        top:2%;
+        font-weight: bold;
+     }
+     
+     .btn1{
+        height: 2.2em;
+        width: 12em;
+        background-color: #023047;
+        margin-right: 6%;
+        border-color:#023047;
+        color: white;
+      margin-top: 1rem;
+      display: inline-block;
+       margin-right: 2rem;
+       cursor: pointer;
+     }
+     .btn2{
+        height:2.2em;
+        width:12em;
+        background-color: #FB8500;
+        margin-top: 1rem;
+        border-color: #FB8500;
+        color: white;
+        display: inline-block;
+        cursor: pointer;
+     }
+     span{
+        height:2.2em;
+        width:12em;
+     }

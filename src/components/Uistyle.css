@@ -1,0 +1,60 @@
+
+.credentials{
+   width: 40%;
+   height: calc(100vh - 3.3rem);
+    vertical-align: top;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.image{
+   /* height:22em;
+   width: 45em;
+ display: flex;
+ justify-content: center;
+ margin-left: auto;
+ margin-right: 2%; */
+ display: inline-block;
+ height:calc(100vh - 3.3rem);
+ width: 60%;
+ justify-content: center;
+  
+   background-image: url('./pic.jpeg');
+   background-size: cover;
+   background-position: center;
+}
+.line1{
+   box-shadow: 7px 5px 19px 2px whitesmoke;
+}
+@media (orientation: portrait) {
+   .image{
+      display: none;
+   }
+   .credentials{
+     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: unset;
+   }
+   .login{
+      display: none;
+   }
+   .credentials{
+      display: flex;
+      justify-content: center;
+     
+      justify-content: center;
+   }
+   
+}
+.main{
+   width: 100%;
+   justify-content: center;
+    align-items: center;
+    display: flex;
+    height:calc(100vh - 3.3rem);
+}
